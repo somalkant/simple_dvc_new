@@ -1,3 +1,7 @@
+
+-e .
+
+wheel
 dvc
 dvc[gdrive]
 sklearn
