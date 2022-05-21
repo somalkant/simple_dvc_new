@@ -1,0 +1,63 @@
+action: GLOB, msg: packaging
+cwd: C:\Users\somal\Downloads\AI_ML\dvc_application
+cmd: 'C:\Users\somal\anaconda3\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
+running sdist
+running egg_info
+writing src_new.egg-info\PKG-INFO
+writing dependency_links to src_new.egg-info\dependency_links.txt
+writing top-level names to src_new.egg-info\top_level.txt
+reading manifest file 'src_new.egg-info\SOURCES.txt'
+writing manifest file 'src_new.egg-info\SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: if 'author' supplied, 'author_email' should be supplied too
+
+creating src_new-0.0.1
+creating src_new-0.0.1\prediction_service
+creating src_new-0.0.1\src
+creating src_new-0.0.1\src_new.egg-info
+creating src_new-0.0.1\tests
+copying files to src_new-0.0.1...
+copying setup.py -> src_new-0.0.1
+copying prediction_service\__init__.py -> src_new-0.0.1\prediction_service
+copying prediction_service\prediction.py -> src_new-0.0.1\prediction_service
+copying src\__init__.py -> src_new-0.0.1\src
+copying src\get_data.py -> src_new-0.0.1\src
+copying src\load_data.py -> src_new-0.0.1\src
+copying src\split_data.py -> src_new-0.0.1\src
+copying src\train_and_evaluate.py -> src_new-0.0.1\src
+copying src_new.egg-info\PKG-INFO -> src_new-0.0.1\src_new.egg-info
+copying src_new.egg-info\SOURCES.txt -> src_new-0.0.1\src_new.egg-info
+copying src_new.egg-info\dependency_links.txt -> src_new-0.0.1\src_new.egg-info
+copying src_new.egg-info\top_level.txt -> src_new-0.0.1\src_new.egg-info
+copying tests\__init__.py -> src_new-0.0.1\tests
+copying tests\conftest.py -> src_new-0.0.1\tests
+copying tests\test_config.py -> src_new-0.0.1\tests
+Writing src_new-0.0.1\setup.cfg
+creating '.tox\dist\src_new-0.0.1.zip' and adding 'src_new-0.0.1' to it
+adding 'src_new-0.0.1'
+adding 'src_new-0.0.1\prediction_service'
+adding 'src_new-0.0.1\src'
+adding 'src_new-0.0.1\src_new.egg-info'
+adding 'src_new-0.0.1\tests'
+adding 'src_new-0.0.1\PKG-INFO'
+adding 'src_new-0.0.1\setup.cfg'
+adding 'src_new-0.0.1\setup.py'
+adding 'src_new-0.0.1\prediction_service\prediction.py'
+adding 'src_new-0.0.1\prediction_service\__init__.py'
+adding 'src_new-0.0.1\src\get_data.py'
+adding 'src_new-0.0.1\src\load_data.py'
+adding 'src_new-0.0.1\src\split_data.py'
+adding 'src_new-0.0.1\src\train_and_evaluate.py'
+adding 'src_new-0.0.1\src\__init__.py'
+adding 'src_new-0.0.1\src_new.egg-info\dependency_links.txt'
+adding 'src_new-0.0.1\src_new.egg-info\PKG-INFO'
+adding 'src_new-0.0.1\src_new.egg-info\SOURCES.txt'
+adding 'src_new-0.0.1\src_new.egg-info\top_level.txt'
+adding 'src_new-0.0.1\tests\conftest.py'
+adding 'src_new-0.0.1\tests\test_config.py'
+adding 'src_new-0.0.1\tests\__init__.py'
+removing 'src_new-0.0.1' (and everything under it)
