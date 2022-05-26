@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
-
-@somalkant
-c17hawke
-/
-simple-dvc-demo
-Public
-Code
-Issues
-Pull requests
-3
-Actions
-Projects
-Wiki
-Security
-Insights
-simple-dvc-demo/prediction_service/schema_in.json
-@c17hawke
-c17hawke update prediction service
-Latest commit 45da97c on Mar 19, 2021
- History
- 1 contributor
-46 lines (46 sloc)  768 Bytes
-
 {
     "fixed_acidity": {
         "min": 4.6,
